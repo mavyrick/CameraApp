@@ -7,9 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		355DD6F427106673003EA7C9 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DD6F327106673003EA7C9 /* CameraViewController.swift */; };
+		355DD6F6271068CC003EA7C9 /* MediaGridCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DD6F5271068CC003EA7C9 /* MediaGridCollectionViewController.swift */; };
+		355DD6FF271070FB003EA7C9 /* SavePhotoToFilesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DD6FE271070FB003EA7C9 /* SavePhotoToFilesService.swift */; };
+		355DD70127107106003EA7C9 /* SaveVideoToFilesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DD70027107106003EA7C9 /* SaveVideoToFilesService.swift */; };
+		355DD703271075AF003EA7C9 /* RetrievePhotosFromFilesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DD702271075AF003EA7C9 /* RetrievePhotosFromFilesService.swift */; };
+		355DD7052710973D003EA7C9 /* MediaGridCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DD7042710973D003EA7C9 /* MediaGridCollectionViewCell.swift */; };
+		355DD70727109EFD003EA7C9 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DD70627109EFD003EA7C9 /* PhotoViewController.swift */; };
+		355DD7092710E00D003EA7C9 /* RetrieveVideosFromFilesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DD7082710E00D003EA7C9 /* RetrieveVideosFromFilesService.swift */; };
+		355DD70C2710EF72003EA7C9 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DD70B2710EF72003EA7C9 /* Video.swift */; };
+		355DD70E27119723003EA7C9 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DD70D27119723003EA7C9 /* Photo.swift */; };
+		355DD7102711CBEB003EA7C9 /* MediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DD70F2711CBEB003EA7C9 /* MediaItem.swift */; };
+		357364082712166B00ABCBA6 /* SavePhotoServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357364072712166B00ABCBA6 /* SavePhotoServiceProtocol.swift */; };
+		3573640A271217BF00ABCBA6 /* SaveVideoServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35736409271217BF00ABCBA6 /* SaveVideoServiceProtocol.swift */; };
+		3573640C2712188100ABCBA6 /* RetrievePhotosServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3573640B2712188100ABCBA6 /* RetrievePhotosServiceProtocol.swift */; };
+		3573640E2712189500ABCBA6 /* RetrieveVideosServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3573640D2712189500ABCBA6 /* RetrieveVideosServiceProtocol.swift */; };
+		357364112712285900ABCBA6 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357364102712285900ABCBA6 /* UIImage+Extension.swift */; };
 		35AEA045270F34C1002A30A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AEA044270F34C1002A30A8 /* AppDelegate.swift */; };
 		35AEA047270F34C1002A30A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AEA046270F34C1002A30A8 /* SceneDelegate.swift */; };
-		35AEA049270F34C1002A30A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AEA048270F34C1002A30A8 /* ViewController.swift */; };
 		35AEA04C270F34C1002A30A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35AEA04A270F34C1002A30A8 /* Main.storyboard */; };
 		35AEA04F270F34C2002A30A8 /* CameraApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 35AEA04D270F34C2002A30A8 /* CameraApp.xcdatamodeld */; };
 		35AEA051270F34C5002A30A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35AEA050270F34C5002A30A8 /* Assets.xcassets */; };
@@ -36,10 +51,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		355DD6F327106673003EA7C9 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		355DD6F5271068CC003EA7C9 /* MediaGridCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaGridCollectionViewController.swift; sourceTree = "<group>"; };
+		355DD6FE271070FB003EA7C9 /* SavePhotoToFilesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavePhotoToFilesService.swift; sourceTree = "<group>"; };
+		355DD70027107106003EA7C9 /* SaveVideoToFilesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveVideoToFilesService.swift; sourceTree = "<group>"; };
+		355DD702271075AF003EA7C9 /* RetrievePhotosFromFilesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetrievePhotosFromFilesService.swift; sourceTree = "<group>"; };
+		355DD7042710973D003EA7C9 /* MediaGridCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaGridCollectionViewCell.swift; sourceTree = "<group>"; };
+		355DD70627109EFD003EA7C9 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		355DD7082710E00D003EA7C9 /* RetrieveVideosFromFilesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetrieveVideosFromFilesService.swift; sourceTree = "<group>"; };
+		355DD70B2710EF72003EA7C9 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		355DD70D27119723003EA7C9 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		355DD70F2711CBEB003EA7C9 /* MediaItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaItem.swift; sourceTree = "<group>"; };
+		357364072712166B00ABCBA6 /* SavePhotoServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavePhotoServiceProtocol.swift; sourceTree = "<group>"; };
+		35736409271217BF00ABCBA6 /* SaveVideoServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveVideoServiceProtocol.swift; sourceTree = "<group>"; };
+		3573640B2712188100ABCBA6 /* RetrievePhotosServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetrievePhotosServiceProtocol.swift; sourceTree = "<group>"; };
+		3573640D2712189500ABCBA6 /* RetrieveVideosServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetrieveVideosServiceProtocol.swift; sourceTree = "<group>"; };
+		357364102712285900ABCBA6 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		35AEA041270F34C1002A30A8 /* CameraApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35AEA044270F34C1002A30A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35AEA046270F34C1002A30A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		35AEA048270F34C1002A30A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		35AEA04B270F34C1002A30A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		35AEA04E270F34C2002A30A8 /* CameraApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CameraApp.xcdatamodel; sourceTree = "<group>"; };
 		35AEA050270F34C5002A30A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -78,6 +108,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		355DD6F727106963003EA7C9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				355DD70D27119723003EA7C9 /* Photo.swift */,
+				355DD70B2710EF72003EA7C9 /* Video.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		355DD6F82710696A003EA7C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				35AEA04A270F34C1002A30A8 /* Main.storyboard */,
+				355DD7042710973D003EA7C9 /* MediaGridCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		355DD6F927106971003EA7C9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				355DD6F327106673003EA7C9 /* CameraViewController.swift */,
+				355DD6F5271068CC003EA7C9 /* MediaGridCollectionViewController.swift */,
+				355DD70627109EFD003EA7C9 /* PhotoViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		355DD6FA271069A5003EA7C9 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				355DD70F2711CBEB003EA7C9 /* MediaItem.swift */,
+				357364072712166B00ABCBA6 /* SavePhotoServiceProtocol.swift */,
+				35736409271217BF00ABCBA6 /* SaveVideoServiceProtocol.swift */,
+				3573640B2712188100ABCBA6 /* RetrievePhotosServiceProtocol.swift */,
+				3573640D2712189500ABCBA6 /* RetrieveVideosServiceProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		355DD6FD271070D0003EA7C9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				355DD70A2710E046003EA7C9 /* FileServices */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		355DD70A2710E046003EA7C9 /* FileServices */ = {
+			isa = PBXGroup;
+			children = (
+				355DD6FE271070FB003EA7C9 /* SavePhotoToFilesService.swift */,
+				355DD70027107106003EA7C9 /* SaveVideoToFilesService.swift */,
+				355DD702271075AF003EA7C9 /* RetrievePhotosFromFilesService.swift */,
+				355DD7082710E00D003EA7C9 /* RetrieveVideosFromFilesService.swift */,
+			);
+			path = FileServices;
+			sourceTree = "<group>";
+		};
+		3573640F2712283300ABCBA6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				357364102712285900ABCBA6 /* UIImage+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		35AEA038270F34C1002A30A8 = {
 			isa = PBXGroup;
 			children = (
@@ -103,8 +200,12 @@
 			children = (
 				35AEA044270F34C1002A30A8 /* AppDelegate.swift */,
 				35AEA046270F34C1002A30A8 /* SceneDelegate.swift */,
-				35AEA048270F34C1002A30A8 /* ViewController.swift */,
-				35AEA04A270F34C1002A30A8 /* Main.storyboard */,
+				355DD6F727106963003EA7C9 /* Models */,
+				355DD6F82710696A003EA7C9 /* Views */,
+				355DD6F927106971003EA7C9 /* Controllers */,
+				355DD6FD271070D0003EA7C9 /* Services */,
+				355DD6FA271069A5003EA7C9 /* Protocols */,
+				3573640F2712283300ABCBA6 /* Extensions */,
 				35AEA050270F34C5002A30A8 /* Assets.xcassets */,
 				35AEA052270F34C5002A30A8 /* LaunchScreen.storyboard */,
 				35AEA055270F34C5002A30A8 /* Info.plist */,
@@ -261,10 +362,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3573640A271217BF00ABCBA6 /* SaveVideoServiceProtocol.swift in Sources */,
 				35AEA04F270F34C2002A30A8 /* CameraApp.xcdatamodeld in Sources */,
-				35AEA049270F34C1002A30A8 /* ViewController.swift in Sources */,
+				355DD703271075AF003EA7C9 /* RetrievePhotosFromFilesService.swift in Sources */,
+				355DD6F6271068CC003EA7C9 /* MediaGridCollectionViewController.swift in Sources */,
+				357364082712166B00ABCBA6 /* SavePhotoServiceProtocol.swift in Sources */,
+				355DD6FF271070FB003EA7C9 /* SavePhotoToFilesService.swift in Sources */,
+				355DD70C2710EF72003EA7C9 /* Video.swift in Sources */,
+				3573640C2712188100ABCBA6 /* RetrievePhotosServiceProtocol.swift in Sources */,
+				3573640E2712189500ABCBA6 /* RetrieveVideosServiceProtocol.swift in Sources */,
+				355DD70727109EFD003EA7C9 /* PhotoViewController.swift in Sources */,
 				35AEA045270F34C1002A30A8 /* AppDelegate.swift in Sources */,
+				355DD7102711CBEB003EA7C9 /* MediaItem.swift in Sources */,
+				355DD70E27119723003EA7C9 /* Photo.swift in Sources */,
+				357364112712285900ABCBA6 /* UIImage+Extension.swift in Sources */,
 				35AEA047270F34C1002A30A8 /* SceneDelegate.swift in Sources */,
+				355DD7092710E00D003EA7C9 /* RetrieveVideosFromFilesService.swift in Sources */,
+				355DD70127107106003EA7C9 /* SaveVideoToFilesService.swift in Sources */,
+				355DD6F427106673003EA7C9 /* CameraViewController.swift in Sources */,
+				355DD7052710973D003EA7C9 /* MediaGridCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -24,6 +24,11 @@ class SaveVideoToFilesService: SaveVideoServiceProtocol {
         
         let documentsDirectory = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).last!
         let dirPath = documentsDirectory.appendingPathComponent("videosFolder")
+        
+        if !FileManager.default.fileExists(atPath: dirPath.absoluteString) {
+            try! FileManager.default.createDirectory(at: dirPath, withIntermediateDirectories: true, attributes: nil)
+        }
+        
         let outputURL = dirPath.appendingPathComponent("\(UUID().uuidString).mp4")
         print("File path: \(outputURL)")
         
